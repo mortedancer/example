@@ -1,0 +1,83 @@
+/* Needless Page Decoration */
+body {-webkit-user-select: none; 
+      cursor: default; 
+      font: 18px "Helvetica Neue";
+      color: rgba(0, 0, 0, 1);
+      font-weight: 200;
+      padding-left: 30px;
+      padding-top: 0px;
+      background:rgba(21, 163, 240, 0.3);/*snow;*/
+      } 
+      
+      h1 {font-weight: 100;font-size: 40px;color: #135ae4;} 
+      h2 { font-weight: 200; font-size: 22px; color: #03b000;} 
+      h3 {font-weight: 200; font-size: 18px; color: rgba(0, 0, 0, 1); margin-top: 50px;} 
+      
+      a:link {text-decoration:none; color: #f06;} 
+      a:visited {text-decoration:none; color: #f06;} 
+      a:hover {text-decoration:underline;} 
+      a:active {text-decoration:underline;}
+	  
+
+div#b_half{
+ vertical-align: top;
+ }
+ 
+div.num_list {
+vertical-align: top;
+  display: inline-block;
+  border: 1px solid #555555;
+  width:60%;
+  height:100%;
+  font:10pt /*Mountains of Christmas*/ Georgia bold;  
+}
+  
+div.op_list {
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid #555555;
+  width:20%px;
+  height:100%;
+  font:10pt Georgia bold;  
+}
+
+span.container{
+  display: inline-block;
+  width:90%;cursor:pointer;
+  }
+
+fieldset {
+    font-family: sans-serif;
+    border: 5px solid  #0084c9;
+    background: snow;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background: #0084c9;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: .9em;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px snow;
+    margin-left: 20px;
+}
+
+.inline {
+  display:inline-block;
+  padding-left: 30px;
+}
+
+textarea {
+    /*resize: none;*/
+    width: 100%;
+    height:100px;
+}
+
+div.dashes {
+	border:2px solid teal;
+	padding:30px;
+	margin:30px;
+	display:inline-flex;
+}

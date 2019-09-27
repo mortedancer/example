@@ -1,0 +1,41 @@
+button.hbt {
+  width:50%;
+  background: #0084c9; /*the colour of the button*/
+  padding: 8px 14px 10px; /*apply some padding inside the button*/
+  border:0px solid #0084c9; /*required or the default border for the browser will appear*/
+  cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+  /*style the text*/
+  font-size:10px;
+  font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+  letter-spacing:.08em;
+  text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+  color: #fff;
+}
+button.hbt:hover, button.hbt:focus {color:#dfe7ea;} 
+button.hbt:disabled {opacity:0.2;}
+button.hbt.pressed {
+	opacity:0.5;
+}
+
+button.bar {
+  width:10px;
+height:80px;
+  background: #0084c9; /*the colour of the button*/
+  padding: 8px 14px 10px; /*apply some padding inside the button*/
+	margin:4px;
+  border:0px solid #0084c9; /*required or the default border for the browser will appear*/
+  cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+  /*style the text*/
+  font-size:10px;
+  font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+  letter-spacing:.08em;
+  text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+  color: #fff;
+}
+button.bar:hover,button.bar:focus {background:darkgreen;} 
+button.bar:disabled {opacity:0.2;}
+button.bar.pressed {
+	opacity:0.5;
+}
+
+
